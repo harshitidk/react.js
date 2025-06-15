@@ -19,9 +19,9 @@ function App() {
             <Card name="Being Anuj" designation="Investment Banker"
             portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={anuj} />
             <Card name="Vina(yuck)" designation="Brand Manager"
-            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={vinayak} />
+            portfolio="https://bit.ly/PortfolioXVinayak" image={vinayak} />
             <Card name="Ayush Shawty" designation="Executive Director"
-            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={ayush} />
+            portfolio="https://ayushportfolio-bba.vercel.app/" image={ayush} />
             </div>
         </>
     );
