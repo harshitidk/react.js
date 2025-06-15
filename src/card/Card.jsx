@@ -1,12 +1,14 @@
 import './card.css';
 
-function Card(){
+function Card(props){
     return(
         <div className="card">
-            <img src="./src/assets/pfp.jpeg" width="200px"></img>
-            <h2>harshit heya</h2>
-            <p>(product designer)</p>
-            <a href="https://bento.me/harshit-heya" target="_blank" rel="noopener noreferrer">
+            <div className='card-container'>
+                <img src={props.image}></img>
+            </div>
+            <h2>{props.name}</h2>
+            <p>{props.designation}</p>
+            <a href={props.portfolio} target="_blank" rel="noopener noreferrer">
             <div className="card-button">
             show portfolio</div>
             </a>
