@@ -10,7 +10,11 @@ function Card(props){
             <p>{props.designation}</p>
             <a href={props.portfolio} target="_blank" rel="noopener noreferrer">
             <div className="card-button">
-            show portfolio</div>
+            portfolio</div>
+            </a>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <div className="card-link">
+            linkedin</div>
             </a>
         </div>
     );
