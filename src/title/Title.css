@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  margin: 20px 20px;
+  padding: 15px 0px;
+  text-align: center;
+  font-family: "Press Start 2P";
+  color: black;
+}
+.title-heading {
+  font-size: 3em;
+  margin: 10px;
+}
+.title-description {
+  width: 45%;
+  font-size: 1.3em;
+  font-family: "Inter";
+  padding-top: 5px;
+  line-height: 18px;
+  font-weight: 500;
+  opacity: 80%;
+}
+
+span {
+  font-weight: 600;
+  color: rgb(255, 0, 144);
+}/*# sourceMappingURL=Title.css.map */
