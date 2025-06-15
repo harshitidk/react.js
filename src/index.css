@@ -11,4 +11,9 @@ body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
+}
+
+.list-cards {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
