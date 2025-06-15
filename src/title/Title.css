@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2em;
-  margin: 20px 20px;
+  margin: 10px 10px;
   padding: 15px 0px;
   text-align: center;
   font-family: "Press Start 2P";
@@ -14,6 +14,8 @@
 .title-heading {
   font-size: 3em;
   margin: 10px;
+  width: 700px;
+  line-height: 40px;
 }
 .title-description {
   width: 45%;
@@ -22,10 +24,19 @@
   padding-top: 5px;
   line-height: 18px;
   font-weight: 500;
-  opacity: 80%;
 }
 
 span {
   font-weight: 600;
-  color: rgb(255, 0, 144);
-}/*# sourceMappingURL=title.css.map */
+}
+
+@media (max-width: 600px) {
+  .title-heading {
+    width: 300px;
+    line-height: 30px;
+  }
+  .title-description {
+    line-height: 13px;
+    width: 320px;
+  }
+}/*# sourceMappingURL=Title.css.map */

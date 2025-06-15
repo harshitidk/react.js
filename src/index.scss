@@ -19,4 +19,17 @@ body
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin: 0;
+
+}
+
+@media (max-width: 600px) {
+    body
+    {
+        font-size: 4px;
+        overflow: auto;
+        margin: 0;
+    }
 }
