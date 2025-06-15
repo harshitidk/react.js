@@ -3,6 +3,11 @@ import Footer from './Footer.jsx'
 import Food from './Food.jsx'
 import Card from './card/Card.jsx'
 import Title from './title/Title.jsx'
+import pfp from './assets/pfp.jpeg';
+import anuj from './assets/anuj.jpeg';
+import vinayak from './assets/vinayak.png';
+import ayush from './assets/ayush.png';
+
 
 function App() {
     return(
@@ -10,13 +15,13 @@ function App() {
             <Title />
             <div className='list-cards'>
             <Card name="Harshit Heya" designation="Product Designer"
-            portfolio="https://bento.me/harshit-heya" image="./src/assets/pfp.jpeg" />
+            portfolio="https://bento.me/harshit-heya" image={pfp} />
             <Card name="Being Anuj" designation="Investment Banker"
-            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image="./src/assets/anuj.jpeg" />
+            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={anuj} />
             <Card name="Vina(yuck)" designation="Brand Manager"
-            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image="./src/assets/vinayak.png" />
+            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={vinayak} />
             <Card name="Ayush Shawty" designation="Executive Director"
-            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image="./src/assets/ayush.png" />
+            portfolio="https://drive.google.com/drive/folders/1olGojevdQTRmqvb6DX14cZJ-DVaO3S3J" image={ayush} />
             </div>
         </>
     );

@@ -3,7 +3,6 @@ body {
   font-family: "montserrat";
   color: rgb(255, 255, 255);
   background-color: rgb(237, 253, 255);
-  background-image: url("./src/assets/bg1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
