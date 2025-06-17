@@ -23,7 +23,7 @@ function App() {
             portfolio="https://bit.ly/PortfolioXVinayak" image={vinayak} link="https://www.linkedin.com/in/vinayak-sharma-9712bb289/" />
             <Card name="Ayush Shawty" designation="Executive Director"
             portfolio="https://ayushportfolio-bba.vercel.app/" image={ayush} link="https://www.linkedin.com/in/ayush-bharti-8934bb232/" />
-            <Card name="Distinguished Anish" designation="Kashmiri Mafia"
+            <Card name="A(niche)" designation="Kashmiri Mafia"
             portfolio="https://ayushportfolio-bba.vercel.app/" image={anish} link="https://www.linkedin.com/in/anishpanditamarketing/" />
             </div>
         </>
