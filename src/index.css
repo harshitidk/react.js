@@ -9,7 +9,6 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  overflow: hidden;
 }
 
 .list-cards {
@@ -17,7 +16,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2px;
-  margin: 0;
+  margin: 0px 200px;
 }
 
 @media (max-width: 600px) {
@@ -25,5 +24,8 @@ body {
     font-size: 4px;
     overflow: auto;
     margin: 0;
+  }
+  .list-cards {
+    margin: 0px;
   }
 }/*# sourceMappingURL=index.css.map */
