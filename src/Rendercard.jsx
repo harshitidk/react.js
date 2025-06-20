@@ -50,14 +50,14 @@ function Rendercard() {
       name: "Aryan",
       designation: "Marketing & Analyst",
       image: aryan,
-      portfolio: "http://bit.ly/Impossible_Foods_",
+      portfolio: "",
       link: "https://www.linkedin.com/in/aryan-goyal-sscbs/"
     },
     {
       name: "Priyanshu",
       designation: "Consultant & Analyst",
       image: priyanshu,
-      portfolio: "https://drive.google.com/file/d/1HsRsaAHdFxPdvl12zcRe7kSJgp7UcrTo/view",
+      portfolio: "https://drive.google.com/drive/u/0/mobile/folders/12Al4Wds2-OUbYMH7QGiCB8u_jZki7SwS?usp=sharing",
       link: "https://www.linkedin.com/in/priyanshu-kumar-1a29a5285/"
     },
     {
