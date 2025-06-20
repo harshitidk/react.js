@@ -6,7 +6,8 @@ import ayush from './assets/ayush.png';
 import anish from './assets/anish.png';
 import aryan from './assets/aryan.png';
 import amlan from './assets/amlan.jpeg';
-import sharim from './assets/sharim.jpeg'
+import sharim from './assets/sharim.jpeg';
+import priyanshu from './assets/priyanshu.png';
 
 function Rendercard() {
   const card_data = [
@@ -51,6 +52,13 @@ function Rendercard() {
       image: aryan,
       portfolio: "http://bit.ly/Impossible_Foods_",
       link: "https://www.linkedin.com/in/aryan-goyal-sscbs/"
+    },
+    {
+      name: "Priyanshu",
+      designation: "Consultant & Analyst",
+      image: priyanshu,
+      portfolio: "https://drive.google.com/file/d/1HsRsaAHdFxPdvl12zcRe7kSJgp7UcrTo/view",
+      link: "https://www.linkedin.com/in/priyanshu-kumar-1a29a5285/"
     },
     {
       name: "Amlan",
